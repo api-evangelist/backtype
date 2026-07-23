@@ -1,7 +1,24 @@
 aid: backtype
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/backtype.png
 name: Backtype
-description: Backtype is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: BackType was a San Francisco social-media analytics startup (backed by 500 Startups/500
+  Global) whose BackTweets product helped publishers measure the reach and conversion of their Tweets
+  and content for clients including The New York Times, HubSpot, bitly, and SlideShare. The BackType team
+  also built Storm, the distributed real-time stream-processing system later open-sourced as Apache Storm.
+  Twitter acquired BackType on July 5, 2011 and folded the team into its platform group; the standalone
+  product and public API were discontinued after the acquisition. The company is defunct and backtype.com
+  is now a parked domain, so there is no live developer portal, documentation, or API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/backtype/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,21 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: twitter
+x-acquired-date: '2011-07-05'
+x-domain-status: parked
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Social Media
+- Analytics
+- Social Analytics
+- Stream Processing
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,8 @@ maintainers:
 common:
 - type: Website
   url: https://backtype.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
