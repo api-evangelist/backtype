@@ -46,7 +46,7 @@ created: '2026-07-17'
 modified: '2026-07-18'
 tags:
 - Company
-- Social-Media
+- Social Media
 - Analytics
 - Social Analytics
 - Stream Processing
@@ -60,6 +60,7 @@ tags_raw:
 - Stream Processing
 - Defunct
 - Acquired
+- Social-Media
 apis: []
 maintainers:
 - FN: Kin Lane
